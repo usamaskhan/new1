@@ -1,0 +1,292 @@
+
+li a .cool-link{
+    display: block;
+ 
+}
+ a .cool-link{
+    text-decoration: none;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:red;
+    transition: width .3s;
+    
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    color: black;
+}
+
+.header ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+
+.footer ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+li {
+    float: left;
+
+    text-decoration: none;
+    display: block;
+}
+ li a{
+     display: block;
+     padding: 8px;
+     color: black;
+     font-size: 20px ;
+ }
+ .image-fluid{
+    max-width: 100%;
+    height:auto;
+}
+
+.rounded-circle{
+    width: 25%;
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 52px;
+}
+
+h5.nike{
+    margin-left: 0px;
+
+    
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+p.para{
+    margin-left: 52px;
+    font-size: 15px;
+}
+.button.btn.btn-primary{
+    margin-top: 30px;
+}
+.btn-primary1{
+    margin-top: 27px;
+    margin-left: 439px;
+}
+.btn-primary2{
+    margin-top: 27px;
+    margin-left: 530px;
+}
+.btn .badge{
+    position: relative;
+    top: -22px;
+}
+
+.button {
+    background-color: white; /* Green */
+    border-radius: 25px;
+    color: red;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin-right: 0px;
+    margin-left: 380px;
+    margin-bottom: -64px;
+    height: 49px;
+    width: 102px;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+}
+
+.button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid red;
+    font-size:10px;
+    font-weight:bold;
+    margin-left:47px;
+    margin-bottom: 20px; 
+}
+
+.button1:hover {
+    background-color: red;
+    color: white;
+    margin-bottom: 20px;
+}
+.button2 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid red;
+    font-size:10px;
+    font-weight:bold;
+    margin-left:369px;
+    margin-top: 21px; 
+}
+
+.button2:hover {
+    background-color: red;
+    color: white;
+}
+
+.image-fluid.primary{
+    width: 100%;
+}
+h5.primary{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-left: 21px;
+}
+a.primary{
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+p.primary{
+    color: red;
+    margin-left: 20px;
+}
+p.aaa{
+    padding-left: 25px;
+    
+}
+span.primary{
+    color: 	rgb(128, 128, 128);
+}
+h4.main{
+    margin-top: 12px;
+    font-weight: bold;
+    padding-left: 24px;
+}
+p.views{
+    margin-left: 18px;
+    margin-top: -8px;
+}
+span.main{
+    color:rgb(128, 128, 128);;
+    text-decoration: none;
+}
+a.main{
+    color: red;
+    text-decoration: none;
+}
+.image-fluid{
+    width: auto;
+}
+.thumbnail{
+    width: auto;
+}
+
+.form-control{
+    margin-left: 133px;
+    width:412px;
+    margin-top: 25px;
+    height: 45px;
+}
+
+
+
+
+.container {
+    position: relative;
+    max-width: 600px;
+    margin-left: 10px;
+}
+
+img.logo {
+    margin-left: 41px;
+    height: 32%;
+    height: 82px;
+    margin-bottom: -12px;
+    margin-top: 0px;
+    padding-bottom: 6px;
+    padding-top: 0px;
+}
+.navbar{
+    
+}
+
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: red; 
+    color: white;
+    width: 18%;
+    padding: 10px;
+  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: -2px;
+    margin-top: -20px;
+
+
+}
+ul.lenk{
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+}
+li.link{
+    text-decoration: none;
+    text-decoration-line: inherit;
+}
+  
+.copyright{
+    padding-left: 450px;
+}
+
+.account{
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 640px;
+    border-radius: 32px;
+}
+h6.account{
+    margin-left: 656px;
+    font-weight: bold;
+}
+span.subc{
+font-size: 12px;
+
+}
+span.logout{
+
+color: red;
+}
+
+.search{
+
+}
