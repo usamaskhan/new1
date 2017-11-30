@@ -1,19 +1,19 @@
 
-li a .cool-link{
-    display: block;
- 
-}
- a .cool-link{
+ .cool-link{
     text-decoration: none;
+    
 }
 
 .cool-link {
     display: inline-block;
     color: #000;
-    text-decoration: none;
-
     font-size: 20px;
     font-weight: bold;
+}
+.cool-link:hover{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
 
@@ -21,9 +21,10 @@ li a .cool-link{
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 3.5px;
     background:red;
-    transition: width .3s;
+    transition: width .2s;
+   
     
 }
 
@@ -32,22 +33,19 @@ li a .cool-link{
     transition: width .3s;
     color: black;
 }
+ul{
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    
 
-.header ul li a{
-    text-decoration: none;
-    display: block;
-    margin-bottom: 20px;
-
+}
+ul.lenk{
+    margin-left: 341px;
+    display: inherit;
 
 }
 
-.footer ul li a{
-    text-decoration: none;
-    display: block;
-    margin-bottom: 20px;
 
-
-}
 li {
     float: left;
 
@@ -228,9 +226,7 @@ img.logo {
     padding-bottom: 6px;
     padding-top: 0px;
 }
-.navbar{
-    
-}
+
 
 
 .container .content {
@@ -249,20 +245,13 @@ img.logo {
 .footer ul li a{
     text-decoration: none;
     display: block;
-    margin-bottom: -2px;
-    margin-top: -20px;
+    margin-bottom: -1px;
+    margin-top: 33px;
 
 
 }
-ul.lenk{
-    text-decoration: none;
-    font-size: 20px;
-    float: left;
-}
-li.link{
-    text-decoration: none;
-    text-decoration-line: inherit;
-}
+
+
   
 .copyright{
     padding-left: 450px;
@@ -287,6 +276,4 @@ span.logout{
 color: red;
 }
 
-.search{
 
-}
